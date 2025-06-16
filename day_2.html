@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // console.log("Hello World !");
+
+        // for(i=1;i<=5;i++){
+        //     for(j=1;j<=i;j++){
+        //         document.write(j + " ")
+        //     }
+        //     document.write("</br>")
+        // }
+
+        // for(i=1;i<=5;i++){
+        //     for(j=1;j<=i;j++){
+        //         document.write(i + " ")
+        //     }
+        //     document.write("</br>")
+        // }
+
+
+        // for(i=1;i<=5;i++){
+        //     for(j=1;j<=i;j++){
+        //         document.write("* ")
+        //     }
+        //     document.write("</br>")
+        // }
+        
+
+        // for(i=5;i>=1;i--){
+        //     for(j=i;j>=1;j--){
+        //         document.write(j + " ")
+        //     }
+        //     document.write("</br>")
+        // }
+
+
+        // for(i=1;i<=5;i++){
+        //     for(j=5;j>=i;j--){
+        //         document.write(j + " ")
+        //     }
+        //     document.write("</br>")
+        // }
+
+
+        // for(i=5;i>=1;i--){
+        //     for(j=i;j>=1;j--){
+        //         document.write(i + " ")
+        //     }
+        //     document.write("</br>")
+        // }        
+
+
+        // function displayData(){
+        //     document.write("display Data");
+        // }
+        // displayData();
+
+
+        // function displayData(a){
+        //     var b =5;
+        //     document.write("display Data: " + a + "<br>");
+        // }
+        // document.write(b + "<br>");
+        // displayData(2);
+        // var b =8;
+        // document.write(b);
+
+
+        // function displayData(a){
+        //     let b =5;
+        //     document.write("display Data: " + a + "<br>");
+        // }
+        // document.write(b + "<br>");
+        // displayData(2);
+        // let b =8;
+        // document.write(b);
+
+
+        // let fruits=["banana","apple","orange"];
+        // document.write(fruits[0]);
+        // for(i=0;i<fruits.length;i++){
+        //     document.writeln(fruits[i])
+        // }
+
+
+        // let mixed = [1, "text", true, null]
+        // for(i=0;i<mixed.length;i++){
+        //     document.writeln(mixed[i])
+        // }
+
+
+
+        // let fruits=["banana", "apple", "orange"];
+        // fruits.push("grapes");
+        // for(i=0;i<fruits.length;i++){
+        //     document.writeln(fruits[i])
+        // }
+
+        // fruits.pop();
+        // document.write("<br>")
+
+        // for(i=0;i<fruits.length;i++){
+        //     document.writeln(fruits[i])
+        // }
+
+        // fruits.unshift("pineapple")
+        // document.write("<br>")
+
+        // for(i=0;i<fruits.length;i++){
+        //     document.writeln(fruits[i])
+        // }
+
+        // fruits.shift()
+        // document.write("<br>")
+
+        // for(i=0;i<fruits.length;i++){
+        //     document.writeln(fruits[i])
+        // }
+
+
+
+
+        // let fruits=["banana", "apple", "orange"];
+        // fruits.forEach(function(f){
+        //     document.writeln(f);
+        // });
+
+        var fruits = []
+
+        function addFruit(fruit){
+            fruits.push(fruit);
+        }
+
+        function removeLastFruit(){
+            fruits.pop();
+        }
+
+        var fruitsDB=['apple','banana','pineapple','watermilon'];
+
+        for (let i = 0; i < fruitsDB.length; i++) {
+            addFruit(fruitsDB[i]);          
+        }
+
+        function printFruits(){
+            fruits.forEach(function(f){
+            document.writeln(f);
+        });
+        document.write("<br>");
+        }
+
+        printFruits();
+        removeLastFruit();
+        printFruits();
+        addFruit("watermelon");
+        printFruits();
+
+
+        
+    </script>
+</body>
+</html>
