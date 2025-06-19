@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Saroj",
+        "age":19,
+        "level":"Bachelor",
+        "semester":2
+    },
+    
+    {
+        "name": "Arun",
+        "age":22,
+        "level":"Bachelor",
+        "semester":7
+    }
+]
